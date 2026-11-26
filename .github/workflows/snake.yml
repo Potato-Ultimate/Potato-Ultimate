@@ -1,31 +1,50 @@
-name: Generate Contribution Snake
+name: Generate Animated Contribution Snake
 
 on:
+  # Automatically regenerate every day
   schedule:
     - cron: "0 0 * * *"
+
+  # Allow manual execution
   workflow_dispatch:
+
+  # Regenerate when README or workflow changes
   push:
     branches:
       - main
+      - master
+    paths:
+      - "README.md"
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
 jobs:
   generate:
+    name: Generate Snake Animation
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Generate snake animation
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
-          github_user_name: Oqvaa
+          github_user_name: Potato-Ultimate
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?palette=github-dark
 
-      - name: Deploy to output branch
+      - name: Deploy generated files to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          force_orphan: true
