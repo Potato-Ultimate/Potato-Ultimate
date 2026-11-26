@@ -1,30 +1,28 @@
-<!-- ======================= HERO ======================= -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:172554,100:0EA5E9&height=230&section=header&text=LAKSHYA%20RAJ&fontSize=58&fontColor=E2E8F0&fontAlignY=37&desc=BACKEND%20ENGINEERING%20%7C%20DISTRIBUTED%20SYSTEMS&descSize=15&descAlignY=58&descColor=7DD3FC&animation=fadeIn" alt="Lakshya Raj - Backend Developer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:020617,35:0F172A,70:075985,100:0EA5E9&text=LAKSHYA%20RAJ&fontSize=65&fontColor=E0F2FE&fontAlignY=38&desc=BACKEND%20ENGINEER%20IN%20PROGRESS&descSize=17&descColor=7DD3FC&descAlignY=58&animation=fadeIn" />
 
-<br>
-
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=780&lines=Backend+Developer+%7C+Java+%26+Spring+Boot;Building+systems+that+scale+and+survive+failures;Exploring+Kafka%2C+Redis+%26+Distributed+Systems;I+debug+the+failure+path%2C+not+just+the+happy+path." alt="Typing animation" />
+<a href="https://readme-typing-svg.demolab.com">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=800&lines=Java+%7C+Spring+Boot+%7C+Backend+Engineering;Exploring+Distributed+Systems+and+System+Design;Learning+Kafka+%26+Redis;Building+systems+that+survive+failures." />
 </a>
 
-<br><br>
+<br/>
 
 <a href="https://github.com/Oqvaa">
-<img src="https://img.shields.io/badge/GitHub-Oqvaa-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-Oqvaa-0B1220?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/FOCUS-Backend%20Engineering-075985?style=for-the-badge" />
-<img src="https://img.shields.io/badge/INTEREST-Distributed%20Systems-164E63?style=for-the-badge" />
+<img src="https://img.shields.io/badge/FOCUS-BACKEND%20ENGINEERING-075985?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/INTEREST-DISTRIBUTED%20SYSTEMS-164E63?style=for-the-badge"/>
+
+<br/><br/>
+
+*"Build deliberately. Understand deeply. Design for failure."*
 
 </div>
 
 ---
 
-<!-- ======================= WHO AM I ======================= -->
-
-## `whoami`
+## `$ whoami`
 
 ```java
 public class Lakshya {
@@ -43,52 +41,66 @@ public class Lakshya {
 
     String[] interests = {
         "Backend Engineering",
-        "Distributed Systems",
-        "Problem Solving"
+        "Problem Solving",
+        "System Architecture"
     };
 
     String goal =
         "Build systems that scale and survive failures.";
 
-    String funFact =
-        "I trust a backend only after thinking about how it can fail.";
+    String philosophy =
+        "Think about failure before it happens.";
 }
 ```
 
-<!-- ======================= WHAT I BUILD ======================= -->
+---
 
-## What I build
+## `$ what-i-work-on`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01 / Backend Systems
+### ⚙️ Backend Engineering
 
-Building REST APIs, authentication systems, data models, and reliable backend services.
+- REST API development
+- Authentication and authorization
+- Database design
+- Scalable backend architecture
+- Performance and reliability
 
 </td>
 <td width="50%" valign="top">
 
-### 02 / Distributed Systems
+### 🌐 Distributed Systems
 
-Exploring chunking, replication, fault tolerance, consistency, and system reliability.
+- File chunking
+- Data replication
+- Fault tolerance
+- Consistency
+- Failure handling
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 03 / Problem Solving
+### 🧠 Problem Solving
 
-Breaking complex problems into smaller pieces, analyzing trade-offs, and optimizing solutions.
+- Data structures and algorithms
+- Competitive programming
+- Complexity analysis
+- Optimization
 
 </td>
 <td width="50%" valign="top">
 
-### 04 / Continuous Learning
+### 📡 Currently Exploring
 
-Currently exploring Kafka, Redis, distributed systems internals, and system design.
+- Apache Kafka
+- Redis
+- Distributed systems internals
+- System design
 
 </td>
 </tr>
@@ -96,108 +108,94 @@ Currently exploring Kafka, Redis, distributed systems internals, and system desi
 
 ---
 
-<!-- ======================= TECH STACK ======================= -->
+## `$ tech-stack`
 
-## Tech stack
-
-**Backend & Data**
+### Backend & Database
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,spring,hibernate,postgres,mongodb" alt="Java, Spring Boot, Hibernate, PostgreSQL and MongoDB" />
+<img src="https://skillicons.dev/icons?i=java,spring,hibernate,postgres,mongodb" />
 </p>
 
-**Programming & Tools**
+### Programming & Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=cpp,python,git,github,linux,maven" alt="C++, Python, Git, GitHub, Linux and Maven" />
+<img src="https://skillicons.dev/icons?i=cpp,python,git,github,linux,maven" />
 </p>
 
-**Currently Exploring**
+### Learning
 
 <p>
-<img src="https://skillicons.dev/icons?i=kafka,redis" alt="Apache Kafka and Redis" />
+<img src="https://skillicons.dev/icons?i=kafka,redis" />
 </p>
 
 ---
 
-<!-- ======================= FEATURED PROJECT ======================= -->
-
-## Featured project
+## `$ featured-project`
 
 <div align="center">
 
 <a href="https://github.com/Oqvaa/distributed-file-storage-system">
-<img width="90%" src="https://img.shields.io/badge/PROJECT-Distributed%20File%20Storage%20System-0B1220?style=for-the-badge&logo=github&logoColor=7DD3FC&labelColor=172554" alt="Distributed File Storage System" />
+
+<img width="90%" src="https://github-readme-stats.vercel.app/api/pin/?username=Oqvaa&repo=distributed-file-storage-system&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=7DD3FC&icon_color=38BDF8&text_color=CBD5E1" />
+
 </a>
+
+</div>
 
 ### Distributed File Storage System
 
-**Java 21 · Spring Boot · PostgreSQL · Spring Data JPA**
+`Java 21` `Spring Boot` `PostgreSQL` `Spring Data JPA`
 
-</div>
+A distributed-storage prototype that simulates a multi-node architecture.
 
-A file storage prototype that simulates a multi-node storage architecture using chunking, replication, centralized metadata management, and replica-aware file reconstruction.
-
-- **Chunking:** Splits uploaded files into 1 MB chunks.
+- **Chunking:** Splits files into 1 MB chunks.
 - **Replication:** Maintains two copies of each chunk across three logical storage nodes.
-- **Metadata:** Tracks files, chunks, and storage locations using PostgreSQL.
-- **Reconstruction:** Retrieves primary chunks when available and falls back to replicas when a primary chunk is missing.
-- **REST APIs:** Supports file upload, download, retrieval, and deletion.
+- **Metadata:** Stores file and chunk information in PostgreSQL.
+- **Reconstruction:** Uses primary chunks when available and falls back to replica copies when a primary chunk is missing.
+- **REST APIs:** Supports upload, download, retrieval, and deletion.
 
-<sub>Note: The current implementation simulates multiple storage nodes using separate local storage directories; they are not independent network-connected servers.</sub>
+<sub>Current implementation simulates nodes using separate local storage directories rather than independent network-connected servers.</sub>
 
 <div align="center">
 
 <a href="https://github.com/Oqvaa/distributed-file-storage-system">
-<img src="https://img.shields.io/badge/EXPLORE%20REPOSITORY-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="Explore repository" />
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-0EA5E9?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
 
 ---
 
-<!-- ======================= CURRENT LEARNING ======================= -->
-
-## Currently learning
+## `$ github-activity`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/Distributed%20Systems-172554?style=for-the-badge" />
-<img src="https://img.shields.io/badge/System%20Design-075985?style=for-the-badge" />
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Oqvaa&bg_color=0B1220&color=7DD3FC&line=0EA5E9&point=38BDF8&area=true&hide_border=true&custom_title=Contribution%20Activity"/>
 
 </div>
 
 ---
 
-<!-- ======================= GITHUB ACTIVITY ======================= -->
-
-## GitHub activity
+## `$ contribution-snake`
 
 <div align="center">
-  <img
-    width="100%"
-    src="https://raw.githubusercontent.com/Oqvaa/Oqvaa/output/github-contribution-grid-snake.svg"
-    alt="GitHub contribution snake animation"
-  />
+
+<img width="100%" src="https://raw.githubusercontent.com/Oqvaa/Oqvaa/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake"/>
+
 </div>
+
 ---
 
-<!-- ======================= ENGINEERING MINDSET ======================= -->
-
-## Engineering mindset
-
 <div align="center">
+
+## `$ final_thought`
 
 ### "I trust a backend only after thinking about how it can fail."
 
-<br>
+<br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0EA5E9,100:1E293B&height=3&section=footer" alt="Blue footer divider" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:075985,100:020617&height=120&section=footer"/>
 
-<br>
-
-<sub>BUILD DELIBERATELY · MEASURE HONESTLY · DESIGN FOR FAILURE</sub>
+<sub>BUILD · BREAK · LEARN · REPEAT</sub>
 
 </div>
