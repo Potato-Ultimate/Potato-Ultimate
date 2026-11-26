@@ -176,11 +176,12 @@ A file storage prototype that simulates a multi-node storage architecture using 
 ## GitHub activity
 
 <div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/Oqvaa/Oqvaa/output/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" />
-
+  <img
+    width="100%"
+    src="https://raw.githubusercontent.com/Oqvaa/Oqvaa/output/github-contribution-grid-snake.svg"
+    alt="GitHub contribution snake animation"
+  />
 </div>
-
 ---
 
 <!-- ======================= ENGINEERING MINDSET ======================= -->
